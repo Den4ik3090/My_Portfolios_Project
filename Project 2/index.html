@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css_reset.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="signup">
+    <!-- Левая панель -->
+    <aside class="signup__sidebar">
+      <div class="sidebar__logo-box">
+        <img src="img/logo-odin.png" alt="Odin logo" class="sidebar__logo" />
+        <h1 class="sidebar__title">ODIN</h1>
+      </div>
+      <p class="sidebar__credit">Photo by Halie West on Unsplash</p>
+    </aside>
+
+    <!-- Правая панель -->
+    <main class="signup__main">
+      <section class="signup__intro">
+        <p class="signup__title">
+          This is not a real online service! You know you need something like this in your life
+          to help you realize your deepest dreams. Sign up <em>now</em> to get started.
+        </p>
+        <p class="little-p"><strong>You know you want to.</strong></p>
+      </section>
+
+      <section class="signup__form-section">
+        <h2 class="form__title">Let’s do this!</h2>
+        <form class="form">
+          <div class="one-block-input">
+            <div class="form__row">
+              <label for="first-name" class="form__label">First Name</label>
+              <input type="text" id="first-name" name="first-name" class="form__input" required />
+            </div>
+            <div class="form__row">
+              <label for="last-name" class="form__label">Last Name</label>
+              <input type="text" id="last-name" name="last-name" class="form__input" required />
+            </div>
+          </div>
+
+          <div class="second-block-input">
+            <div class="form__row">
+              <label for="email" class="form__label">Email</label>
+              <input type="email" id="email" name="email" class="form__input" required />
+            </div>
+            <div class="form__row">
+              <label for="phone" class="form__label">Phone Number</label>
+              <input type="tel" id="phone" name="phone" class="form__input" required />
+            </div>
+          </div>
+          <div class="three-block-input">
+
+            <div class="form__row">
+              <label for="password" class="form__label">Password</label>
+              <input type="password" id="password" name="password" class="form__input" required />
+            </div>
+            <div class="form__row">
+              <label for="confirm-password" class="form__label">Confirm Password</label>
+              <input type="password" id="confirm-password" name="confirm-password" class="form__input" required />
+            </div>
+          </div>
+
+
+          <button type="submit" class="button button--primary">Create Account</button>
+        </form>
+        <p class="signup__login">
+          Already have an account? <a href="#" class="link">Log in</a>
+        </p>
+      </section>
+    </main>
+  </div>
+</body>
+
+</html>
